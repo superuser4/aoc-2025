@@ -1,5 +1,5 @@
 use day1::day1::{day1, day1_part2};
-use day2::day2::day2;
+use day2::day2::{day2, day2_part2};
 
 mod day1;
 mod day2;
@@ -7,5 +7,6 @@ mod day2;
 fn main() {
     //day1();
     //day1_part2();
-    day2();
+    //day2();
+    day2_part2();
 }
