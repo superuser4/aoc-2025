@@ -50,12 +50,11 @@ pub fn day3_part2() {
         }
         let digits: Vec<u32> = line.chars().map(|i| i.to_digit(10).unwrap()).collect();
         let len = digits.len();
-        let k = 12;
-        let mut result: Vec<u32> = Vec::with_capacity(k);
+        let mut result: Vec<u32> = Vec::with_capacity(12);
         
         let mut start =0;
-        for i in 0..k {
-            let end = len.saturating_sub(k-i); 
+        for i in 0..12 {
+            let end = len.saturating_sub(12-i); 
             let mut max_num = 0;
             let mut max_idx = start;
 
