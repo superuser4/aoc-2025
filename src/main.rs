@@ -1,12 +1,14 @@
 use day2::day2::day2_part2;
 use day3::day3::{day3, day3_part2};
 use day4::day4::{day4, day4_part2};
+use day5::day5::{day5, day5_part2};
 
 
 mod day1;
 mod day2;
 mod day3;
 mod day4;
+mod day5;
 
 fn main() {
     //day1();
@@ -16,5 +18,7 @@ fn main() {
     //day3(); 
     //day3_part2();
     //day4();
-    day4_part2();
+    //day4_part2();
+    //day5(); 
+    day5_part2();
 }
